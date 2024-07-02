@@ -12,6 +12,41 @@ body{
      
 }
 
+
+.container-img {
+    position: relative;
+    text-align: center;
+}
+
+.container-img .laptop-image img  {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid white;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-image {
+    width: 100%;
+    /* height: auto; */
+}
+
+.container-img .image-container img{
+     /* max-width: 100%; */
+     border-radius: 0;
+     width: 400px;
+     height: 200px;
+    /* height: auto; */
+}
+
+
+
+
+
 .logo img{
      /* width: 300px;  */
      /* height: 450px; */
